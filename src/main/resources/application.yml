@@ -5,12 +5,12 @@ spring:
     name: ultraPlexMovieBookingSystem
   security:
     user:
-      name: bookingUser
-      password: bookingPassword
+      name: user
+      password: password
   datasource:
     url: jdbc:postgresql://localhost:5432/ultraplexDb
-    username: postgres
-    password: admin22
+    username: user
+    password: password
   jpa:
     hibernate:
       ddl-auto: update
